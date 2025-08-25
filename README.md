@@ -23,6 +23,24 @@ Símbolos (caracteres especiais, como !@#$%)
 Caso nenhum tipo de caractere seja selecionado, o programa gera um erro explicando que pelo menos um tipo precisa ser escolhido.
 
 
+▶️ Como rodar o projeto
+
+Clone ou baixe este repositório.
+
+Entre na pasta do projeto pelo terminal:
+
+cd nome-da-pasta
+
+Execute o programa com Python3:
+
+python3 nome_do_arquivo.py
+
+
+Exemplo:
+
+cd gerador-senha
+python3 gerador.py
+
 📋 Exemplo de uso
 ############# Gerador de Senha ##############
 Digite o tamanho da senha: 12
@@ -31,7 +49,7 @@ Deseja usar senha minusculas? (s/n): s
 Deseja usar digitos?  (s/n): s
 Deseja usar simbolos? (s/n): n
 
-Xq3fWkG72bLm
+Senha Gerada ------------> Xq3fWkG72bLm
 
 
 🛠️ Tecnologias utilizadas
