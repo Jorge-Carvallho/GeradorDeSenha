@@ -30,5 +30,5 @@ usar_digitos = input('Deseja usar digitos?  (s/n): ').lower() == 's'
 usar_simbolos = input('Deseja usar simbolos? (s/n): ').lower() == 's'
 
 senha_gerada = gerar_senha(tamanho, usar_maiusculas, usar_minusculas, usar_digitos, usar_simbolos)
-print(senha_gerada)
+print(f'Senha gerada ----> {senha_gerada}')
 
